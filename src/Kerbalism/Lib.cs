@@ -209,7 +209,7 @@ namespace KERBALISM
 		// return year length
 		public static double DaysInYear()
 		{
-			if (!FlightGlobals.ready) return 426.0;
+			if (!FlightGlobals.ready) return 365.0;
 			return Math.Floor( FlightGlobals.GetHomeBody().orbit.period / (HoursInDay() * 60.0 * 60.0) );
 		}
 
